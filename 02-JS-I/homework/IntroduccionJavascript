@@ -1,0 +1,12 @@
+	* Variables:    Son un elemento que se emplea para almacenar y hacer referencia a otro valor, palabras o simplemente letras a las que se les asigna dicho valor para ser usado en el futuro. Es la forma de almacenar el valor de algo para usar más tarde.
+
+
+	* Strings:      Datos de tipo bloque de texto, siempre van entre comillas, cualquier caracter entre comillas es un   dato tipo string.
+
+
+	* Funciones (argumentos, `return`): Son un tipo especial de objetos, llamados 'callable objectcs' u 'objetos invocables'. Una funcion es un conjunto de instrucciones para que se calcule un valor o se realize una tarea. A esas instrucciones se las llama argumentos. Se utiliza la declaracion 'return' para idicar los valores que se quieren devolver de la funcion.
+    
+    * Declaraciones `if`: Es un operador de control de flujo y comparacion. Se comprueba si algo indicado es verdadero o si se cumple una condicion, de ser asi se ejecuta el codigo indicado. En caso de que la condicion no se cumpla el codigo no se ejecuta.
+
+
+	* Valores booleanos (`true`, `false`): Datos de tipo binario (solo dos opciones) que utiliza javascript para significar verdadero o falso, 0 u 1.
