@@ -59,11 +59,7 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-  frase=''
-  for(let i=0;i<palabras.length;i++){
-    frase=frase+' '+palabras[i];
-  }
-  return frase;
+  return palabras.join(' ');
 }
 
 
@@ -122,28 +118,25 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
-  if (arguments.length<1){
-    return 0;
+  if(arguments.length < 1) return 0;
+  var total = 1;
+  for(var i = 0; i < arguments.length; i++) {
+    total = total * arguments[i];
   }
-  var producto=1;
-
-  for (var i = 1; i < arguments.length; i++){
-    producto=producto*arguments[i];
-  }
-  return producto
+  return total;
 }
 
 
 function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
-  suma=0;
-  for (var i = 1; i < arreglo.length; i++){
-    if (arreglo[i]>18){
-      suma++;
+  let contador = 0;
+  for (let i = 0; i < arreglo.length ; i++) {
+    if(arreglo[i] > 19){
+      contador++
     }
   }
-  return suma;
+  return contador
 }
 
 
