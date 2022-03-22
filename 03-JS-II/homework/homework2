@@ -1,0 +1,3 @@
+FOR: es una instruccion para que se opere una cantidad determinada de veces una funcion.
+&&, ||, !: son operadores logicos que se utilizan para comparar o evaluar condiciones, para que dos condiciones se cumplan se utiliza && (y),
+            cuando se requiere que solo una se cumpla se utiliza || (o), ! quiere decir 'no' devuelve el valor opuesto al booleano que evalua.
