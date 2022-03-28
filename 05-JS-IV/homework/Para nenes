@@ -1,0 +1,13 @@
+Objetos: son contenedores de datos. Un objeto guarda informacion (propiedades) de variables que lo definen.
+
+
+Propiedad: es una asociacion entre un nombre y un valor. Es una variable relacionada con el objeto.
+
+
+Metodo: Cuando el valor de una propiedad es una funcion, esta propiedad se denomina metodo.
+
+
+Bucle 'for...in': es un bucle integrado en javascript que permite recorrer todas las claves del objeto para operar sobre ellas.
+
+
+Notacion de Puntos vs Notacion de Corchetes: son dos formas diferentes de acceder de las propiedades o metodos de un objeto (objeto.propiedad u objeto['propiedad']) . Se puede utilizar la notacion de puntos (objeto.propiedad) . La notacion de puntos es mas facil de leer pero el nombre de la propiedad debe cumplir ciertos requisitos (no debe tener espacios, debe comenzar con letras). Cuando se quiere acceder a la propiedad con una variable si o si se debe utilizar la notacion de corchetes.
