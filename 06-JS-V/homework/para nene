@@ -1,0 +1,2 @@
+prototype: es la clase madre que abarca a otras que heredan todos sus metodos.
+constructor: metodo especial de una clase para crear un objeto con sus propiedades.
